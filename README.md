@@ -1,66 +1,23 @@
-## Foundry
+## Requirements
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+・ **[Foundry](https://getfoundry.sh/).** _If you are unsure about Foundry being installed, simply run `forge --version`. The output should be something like `forge 0.2.0 (d58ab7f 2024-02-27T00:16:43.649244000Z)`_
 
-Foundry consists of:
+・**[Make](https://www.gnu.org/software/make).** _MacOs and Linux
+already come with Make by default. If you are unsure about Make being installed, simply run `make --version`. The output should be something like `GNU Make 3.81`_
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+・ **[lcov](https://github.com/linux-test-project/lcov)**. _If you are on MacOs it can be installed via brew `brew install lcov`. If you are on Linux it can be installed via apt `sudo apt-get install lcov`_.
 
-## Documentation
+## Running tests
 
-https://book.getfoundry.sh/
+In the project root folder, simply run:
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
+```
+make tests
 ```
 
-### Test
+This command will perform several tasks:
 
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+1.  Run tests.
+2.  Generate the lcov.info file (code coverage file).
+3.  Verify if the current coverage is at least the minimum specified in the min.coverage file.
+4.  Open the lcov HTML version if the current code coverage is less than the specified minimum.
