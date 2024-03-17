@@ -1,0 +1,15 @@
+{
+    "Import Pool Lottery": {
+        "scope": "solidity",
+        "prefix": "importpl",
+        "body": "import {PoolLottery} from \"src/contracts/PoolLottery.sol\";",
+        "description": "Imports Pool Lottery Contract"
+    },
+
+    "Import Pool Lottery Interface": {
+        "scope": "solidity",
+        "prefix": "importpli",
+        "body": "import {IPoolLottery} from \"src/interfaces/IPoolLottery.sol\";",
+        "description": "Imports Pool Lottery Interface"
+    }
+}

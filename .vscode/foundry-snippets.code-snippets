@@ -1,0 +1,22 @@
+{
+	"Import foundry Test contract": {
+		"scope": "solidity",
+		"prefix": "importt",
+		"body": "import {Test} from \"@forge/Test.sol\";",
+		"description": "Imports Test contract from Forge"
+	},
+
+	"Import foundry Script contract": {
+		"scope": "solidity",
+		"prefix": "imports",
+		"body": "import {Script} from \"@forge/Script.sol\";",
+		"description": "Imports Script contract from Forge"
+	},
+
+	"Import foundry Std Invariant": {
+		"scope": "solidity",
+		"prefix": "importin",
+		"body": "import {StdInvariant} from \"@forge/StdInvariant.sol\";",
+		"description": "Imports StdInvariant contract from Forge"
+	}
+}

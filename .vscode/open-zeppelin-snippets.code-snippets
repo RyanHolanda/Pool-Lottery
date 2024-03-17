@@ -1,0 +1,45 @@
+{
+    "Import IERC20": {
+        "scope": "solidity",
+        "prefix": "importi20",
+        "body": "import {IERC20} from \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";",
+        "description": "Imports IERC20 contract from @openzeppelin"
+    },
+
+    "Import Mock ERC20": {
+        "scope": "solidity",
+        "prefix": "importm20",
+        "body": "import {ERC20Mock} from \"@openzeppelin/contracts/mocks/token/ERC20Mock.sol\";",
+        "description": "Imports Mock ERC20 contract from @openzeppelin"
+    },
+
+    "Import Reentrancy Guard": {
+        "scope": "solidity",
+        "prefix": "importRG",
+        "body": "import {ReentrancyGuard} from \"@openzeppelin/contracts/utils/ReentrancyGuard.sol\";",
+        "description": "Imports Reentrancy Guard contract from @openzeppelin"
+    },
+
+    "Import Enumerable Set": {
+        "scope": "solidity",
+        "prefix": "importES",
+        "body": "import {EnumerableSet} from \"@openzeppelin/contracts/utils/structs/EnumerableSet.sol\";",
+        "description": "Imports Enumerable Set Library from @openzeppelin"
+    },
+
+    "Import Enumerable Map": {
+        "scope": "solidity",
+        "prefix": "importEM",
+        "body": "import {EnumerableMap} from \"@openzeppelin/contracts/utils/structs/EnumerableMap.sol\";",
+        "description": "Imports Enumerable Map Library from @openzeppelin"
+    },
+
+    "Import SafeERC20": {
+        "scope": "solidity",
+        "prefix": "imports20",
+        "body": "import {SafeERC20} from \"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol\";",
+        "description": "Imports SafeERC20 library from @openzeppelin"
+    },
+
+    
+}

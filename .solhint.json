@@ -1,0 +1,48 @@
+{
+    "extends": "solhint:recommended",
+    "rules": {
+        "explicit-types": "error",
+        "immutable-vars-naming": "off",
+        "const-name-snakecase": "error",
+        "constructor-syntax": "error",
+        "var-name-mixedcase": "off",
+        "no-console": "warn",
+        "no-empty-blocks": "warn",
+        "no-global-import": "error",
+        "no-unused-import": "warn",
+        "no-unused-vars": "warn",
+        "max-line-length": [
+            "error",
+            160
+        ],
+        "payable-fallback": "error",
+        "reason-string": "warn",
+        "custom-errors": "warn",
+        "contract-name-camelcase": "warn",
+        "event-name-camelcase": "off",
+        "func-name-mixedcase": "warn",
+        "modifier-name-mixedcase": "warn",
+        "named-parameters-mapping": "warn",
+        "private-vars-leading-underscore": "off",
+        "imports-on-top": "warn",
+        "visibility-modifier-order": "warn",
+        "avoid-low-level-calls": "warn",
+        "avoid-call-value": "warn",
+        "avoid-throw": "error",
+        "check-send-result": "warn",
+        "compiler-version": [
+            "warn",
+            "0.8.24"
+        ],
+        "no-complex-fallback": "warn",
+        "not-rely-on-block-hash": "error",
+        "not-rely-on-time": "warn",
+        "reentrancy": "warn",
+        "state-visibility": "error",
+        "ordering": "warn",
+        "quotes": [
+            "error",
+            "double"
+        ]
+    }
+}
