@@ -10,3 +10,6 @@ remappings = [
 
 [fuzz]
 runs = 1000
+
+[invariant]
+runs = 1000
