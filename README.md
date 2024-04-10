@@ -1,4 +1,4 @@
-## Castor
+## Pool Lottery
 
 Castor is a on chain lottery where users enter a lottery pool(buy a ticket), and then at a chosen time a random number using chainlink VRF is generated to determine who is the winner. after the winner is selected, all the funds are sent to the winner.
 
