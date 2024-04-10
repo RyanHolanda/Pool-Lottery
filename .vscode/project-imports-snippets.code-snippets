@@ -2,7 +2,7 @@
     "Import Pool Lottery": {
         "scope": "solidity",
         "prefix": "importpl",
-        "body": "import {PoolLottery} from \"src/contracts/PoolLottery.sol\";",
+        "body": "import {PoolLottery} from \"src/contracts/PoolLottery/PoolLottery.sol\";",
         "description": "Imports Pool Lottery Contract"
     },
 
@@ -11,5 +11,95 @@
         "prefix": "importpli",
         "body": "import {IPoolLottery} from \"src/interfaces/IPoolLottery.sol\";",
         "description": "Imports Pool Lottery Interface"
-    }
+    },
+
+    "Import Lottery Status Enum": {
+        "scope": "solidity",
+        "prefix": "importlst",
+        "body": "import {LotteryStatus} from \"src/types/LotteryStatus.sol\";",
+        "description": "Imports Lottery Status Enum"
+    },
+
+    "Import Safe Lottery Status": {
+        "scope": "solidity",
+        "prefix": "importslst",
+        "body": "import {SafeLotteryStatus} from \"src/libraries/SafeLotteryStatus.sol\";",
+        "description": "Imports Safe Lottery Status Library"
+    },
+    
+    "Import Base test": {
+        "scope": "solidity",
+        "prefix": "importbt",
+        "body": "import {BaseTest} from \"test/BaseTest.t.sol\";",
+        "description": "Imports Base Test"
+    },
+
+    "Import RNG contract": {
+        "scope": "solidity",
+        "prefix": "importrng",
+        "body": "import {RNGConsumer} from \"src/contracts/RNGConsumer.sol\";",
+        "description": "Imports RNG contract"
+    },
+
+    "Import Pool Lottery Storage Contract": {
+        "scope": "solidity",
+        "prefix": "importpls",
+        "body": "import {PoolLotteryStorage} from \"src/contracts/PoolLottery/PoolLotteryStorage.sol\";",
+        "description": "Imports Pool Lottery Storage Contract"
+    },
+
+    "Import Pool Lottery Storage interface": {
+        "scope": "solidity",
+        "prefix": "importplsi",
+        "body": "import {IPoolLotteryStorage} from \"src/interfaces/IPoolLotteryStorage.sol\";",
+        "description": "Imports Pool Lottery Storage Interface"
+    },
+
+    "Import RNGParams": {
+        "scope": "solidity",
+        "prefix": "importrngp",
+        "body": "import {RNGParams} from \"src/types/RNGParams.sol\";",
+        "description": "Imports RNGParams struct"
+    },
+
+    "Import Math": {
+        "scope": "solidity",
+        "prefix": "importmath",
+        "body": "import {Math} from \"src/libraries/Math.sol\";",
+        "description": "Imports Math Library"
+    },
+
+    "Import Link Pool Interface": {
+        "scope": "solidity",
+        "prefix": "importlpi",
+        "body": "import {ILinkPool} from \"src/interfaces/ILinkPool.sol\";",
+        "description": "Imports Link Pool Interface"
+    },
+
+    "Import Link Pool": {
+        "scope": "solidity",
+        "prefix": "importlp",
+        "body": "import {LinkPool} from \"src/contracts/LinkPool.sol\";",
+        "description": "Imports Link Pool Contract"
+    },
+    
+    "Import Pool Lottery Manager": {
+        "scope": "solidity",
+        "prefix": "importplm",
+        "body": "import {PoolLotteryManager} from \"src/contracts/PoolLottery/PoolLotteryManager.sol\";",
+        "description": "Imports Pool Lottery Manager Contract"
+    },
+
+    "Import Pool Lottery Manager Interface": {
+        "scope": "solidity",
+        "prefix": "importplmi",
+        "body": "import {IPoolLotteryManager} from \"src/interfaces/IPoolLotteryManager.sol\";",
+        "description": "Imports Pool Lottery Manager Interface"
+    },
+
+    "Import VRF V2 Wrapper Mock": {
+        "scope": "solidity",
+        "prefix": "importvrfv2wm",
+        "body": "import {VRFV2WrapperMock} from \"test/mocks/VRFV2WrapperMock.sol\";",
+    },
 }

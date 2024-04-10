@@ -1,7 +1,13 @@
-forge test -vvv \
+function test() {
+forge test --ast -vvv \
 	&& rm -rf coverage \
 	&& mkdir coverage \
 	&& make gen-coverage
+}
+
+if ! test; then
+	exit 1
+fi
 
 
 if ! lcov --summary coverage/lcov.info --fail-under-lines `cat min.coverage` --quiet; then

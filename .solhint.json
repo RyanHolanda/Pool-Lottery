@@ -7,20 +7,31 @@
         "constructor-syntax": "error",
         "var-name-mixedcase": "off",
         "no-console": "warn",
+        "gas-struct-packing": "warn",
+        "gas-small-strings": "error",
+        "gas-length-in-loops": "warn",
+        "gas-increment-by-one": "warn",
+        "gas-calldata-parameters": "warn",
         "no-empty-blocks": "warn",
         "no-global-import": "error",
         "no-unused-import": "warn",
         "no-unused-vars": "warn",
         "max-line-length": [
-            "error",
-            160
+            "warn",
+            130
         ],
         "payable-fallback": "error",
         "reason-string": "warn",
-        "custom-errors": "warn",
+        "gas-custom-errors": "warn",
         "contract-name-camelcase": "warn",
         "event-name-camelcase": "off",
-        "func-name-mixedcase": "warn",
+        "func-name-mixedcase": "off",
+        "func-visibility": [
+            "warn",
+            {
+                "ignoreConstructors": true
+            }
+        ],
         "modifier-name-mixedcase": "warn",
         "named-parameters-mapping": "warn",
         "private-vars-leading-underscore": "off",
@@ -32,7 +43,7 @@
         "check-send-result": "warn",
         "compiler-version": [
             "warn",
-            "0.8.24"
+            "0.8.25"
         ],
         "no-complex-fallback": "warn",
         "not-rely-on-block-hash": "error",
@@ -40,6 +51,7 @@
         "reentrancy": "warn",
         "state-visibility": "error",
         "ordering": "warn",
+        "multiple-sends": "warn",
         "quotes": [
             "error",
             "double"

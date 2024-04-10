@@ -1,3 +1,13 @@
 {
-    "solidity.compileUsingRemoteVersion": "v0.8.24+commit.e11b9ed9",
+    "solidity.compileUsingRemoteVersion": "v0.8.25",
+    "solidity.packageDefaultDependenciesContractsDirectory": "src",
+    "solidity.packageDefaultDependenciesDirectory": "lib",
+    "security.olympix.project.includePath": "/src",
+    "security.olympix.project.analyzeWholeProject": false,
+    "security.olympix.detectors.defaultVisibility": true,
+    "security.olympix.detectors.eventsPriceChange": true,
+    "security.olympix.detectors.reentrancyEvents": true,
+    "security.olympix.detectors.noParameterValidationInConstructor": false,
+    "security.olympix.detectors.shadowingReservedKeyword": true,
+    "security.olympix.detectors.sameNamedContracts": true
 }

@@ -1,0 +1,8 @@
+{
+    "Import Gas Snapshot": {
+        "scope": "solidity",
+        "prefix": "importgs",
+        "body": "import {GasSnapshot} from \"@forge-gas-snapshot/src/GasSnapshot.sol\";",
+        "description": "Imports Gas Snapshot contract"
+    }
+}

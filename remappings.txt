@@ -1,0 +1,4 @@
+@forge-gas-snapshot/src/=lib/forge-gas-snapshot/src
+@chainlink/contracts/=lib/chainlink/contracts
+@forge/=lib/forge-std/src
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts

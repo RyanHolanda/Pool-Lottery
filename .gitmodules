@@ -7,3 +7,12 @@
 [submodule "lib/githooks"]
 	path = lib/githooks
 	url = https://github.com/RyanHolanda/Githooks
+[submodule "lib/chainlink"]
+	path = lib/chainlink
+	url = https://github.com/smartcontractkit/chainlink
+[submodule "lib/forge-gas-snapshot"]
+	path = lib/forge-gas-snapshot
+	url = https://github.com/RyanHolanda/forge-gas-snapshot
+[submodule "lib/foundry-devops"]
+	path = lib/foundry-devops
+	url = https://github.com/Cyfrin/foundry-devops

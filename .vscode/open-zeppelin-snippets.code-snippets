@@ -41,5 +41,24 @@
         "description": "Imports SafeERC20 library from @openzeppelin"
     },
 
-    
+    "Import String utils": {
+        "scope": "solidity",
+        "prefix": "importsu",
+        "body": "import {Strings} from \"@openzeppelin/contracts/utils/Strings.sol\";",
+        "description": "Imports String utils library from @openzeppelin"
+    },
+
+    "Import Ownable contract": {
+        "scope": "solidity",
+        "prefix": "importo",
+        "body": "import {Ownable} from \"@openzeppelin/contracts/access/Ownable.sol\";",
+        "description": "Imports Ownable contract from @openzeppelin"
+    },
+
+    "Import Ownable2Step contract": {
+        "scope": "solidity",
+        "prefix": "importo2s",
+        "body": "import {Ownable2Step} from \"@openzeppelin/contracts/access/Ownable2Step.sol\";",
+        "description": "Imports Ownable2Step contract from @openzeppelin"
+    }
 }
